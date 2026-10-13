@@ -1,26 +1,12 @@
-# SARVAS: Indian Ocean Coastal Guardian (Team Ikshana)
+# SARVAS: Indian Ocean Coastal Guardian
 ### *From Slick to Suspect — AI-Powered Maritime Oil Spill Attribution & Forensics*
 
-[![Infosys Hack-AI-Thon 2026](https://img.shields.io/badge/Infosys-Hack--AI--Thon%202026-0070BA?style=for-the-badge&logo=infosys&logoColor=white)](https://sarvas.vercel.app)
 [![Technology Track](https://img.shields.io/badge/Qualcomm-Cloud%20AI%20Playground-3253DC?style=for-the-badge&logo=qualcomm&logoColor=white)](https://sarvas-backend.onrender.com/docs)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-sarvas.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=white)](https://sarvas.vercel.app)
 [![API Status](https://img.shields.io/badge/FastAPI%20Backend-33%20Endpoints%20Live-46E3B7?style=for-the-badge&logo=fastapi&logoColor=white)](https://sarvas-backend.onrender.com/docs)
 [![Validation](https://img.shields.io/badge/U--Net%20Accuracy-95.89%25%20%7C%200.79%20mIoU-blue?style=for-the-badge&logo=pytorch&logoColor=white)](backend/ml/models/training_metrics.json)
 [![Tests](https://img.shields.io/badge/Automated%20Tests-37%20Passed-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](backend/tests/)
 [![Coastline](https://img.shields.io/badge/National%20Coastline-11%2C098.81%20km-indigo?style=for-the-badge)](https://sarvas.vercel.app)
-
----
-
-## 🏆 Hackathon Submission Details (Infosys Hack-AI-Thon 2026)
-
-- **Team Name**: Team Ikshana
-- **College**: Bhoj Reddy Engineering College for Women, Hyderabad
-- **Team Members**:
-  - **Vaishnavi Patil**
-  - **L. Chandana Sai**
-  - **Akshadha Vanaparthy**
-- **Selected Problem Statement**: Open Innovation – *SARVAS: Indian Ocean Coastal Guardian*
-- **Technology Track**: AI Playground (*Qualcomm Cloud AI Playground*)
 
 ---
 
@@ -204,7 +190,3 @@ npm run dev
 - **Cryptographic SHA-256 Seal**: Every generated PDF evidence dossier embeds an immutable cryptographic hash calculated over the slick telemetry and suspect MMSI records to prevent evidence tampering.
 - **Investigative Lead Standard**: Scores represent mathematical circumstantial likelihood; Coast Guard boarding parties physically verify bunker fuel samples before judicial action.
 
----
-
-### 👥 Team Ikshana — Bhoj Reddy Engineering College for Women
-*Developed for Infosys Hack-AI-Thon 2026 · Technology Track: Qualcomm Cloud AI Playground*
