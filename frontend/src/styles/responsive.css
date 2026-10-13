@@ -1,0 +1,92 @@
+/* Tablet: 768px - 1024px */
+@media (max-width: 1024px) {
+  aside {
+    width: 60px !important;
+  }
+  aside > div:first-child > div:first-child > div {
+    display: none !important;
+  }
+  aside nav button span:nth-child(2) {
+    display: none !important;
+  }
+  aside > div:last-child > div:first-child > div:last-child {
+    display: none !important;
+  }
+  aside > div:last-child > div:last-child {
+    flex-direction: column;
+  }
+  aside > div:last-child > div:last-child a,
+  aside > div:last-child > div:last-child button {
+    font-size: 0;
+    padding: 8px;
+  }
+  
+  .grid-dashboard, .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .map-container {
+    width: 100%;
+  }
+  .data-table-wrapper {
+    overflow-x: auto;
+  }
+}
+
+/* Mobile: < 768px */
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column !important;
+  }
+  aside {
+    width: 100% !important;
+    height: auto !important;
+    position: fixed;
+    bottom: 0;
+    top: auto !important;
+    flex-direction: row !important;
+    z-index: 1000;
+  }
+  aside > div:first-child {
+    display: none !important;
+  }
+  aside nav {
+    flex-direction: row !important;
+    justify-content: space-around;
+    width: 100%;
+  }
+  aside nav button {
+    border-left: none !important;
+    border-bottom: 3.5px solid transparent;
+    justify-content: center;
+  }
+  aside > div:last-child {
+    display: none !important;
+  }
+  
+  header {
+    padding: 0 12px !important;
+  }
+  .grid-2, .grid-3, .grid-dashboard {
+    grid-template-columns: 1fr;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: var(--sp-2) !important;
+  }
+  .map-container {
+    height: 300px;
+  }
+}
+
+/* Large desktop: > 1440px */
+@media (min-width: 1440px) {
+  .main-content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .map-container {
+    height: 600px;
+  }
+}

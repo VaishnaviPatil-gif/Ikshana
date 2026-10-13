@@ -1,0 +1,46 @@
+/* =========================================
+   SARVAS Dark Mode CSS Variables
+   ========================================= */
+
+[data-theme='dark'] {
+  --bg-primary: #0a1628;
+  --bg-secondary: #0f2040;
+  --bg-card: #132744;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --border-color: #1e3a5f;
+  
+  --navy-900: #e2e8f0; /* Invert for text */
+  --navy-800: #cbd5e1;
+  --navy-700: #94a3b8;
+  --gray-50: #0f2040;
+  --gray-100: #132744;
+  --gray-200: #1e3a5f;
+  --gray-300: #334155;
+  --white: #132744;
+}
+
+[data-theme='dark'] body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+[data-theme='dark'] .app-layout aside {
+  background-color: var(--bg-secondary) !important;
+  border-right-color: var(--border-color) !important;
+}
+
+[data-theme='dark'] .app-layout header {
+  background-color: var(--bg-secondary) !important;
+  border-bottom-color: var(--border-color) !important;
+}
+
+[data-theme='dark'] .app-layout aside > div:last-child {
+  background-color: var(--bg-primary) !important;
+  border-top-color: var(--border-color) !important;
+}
+
+[data-theme='dark'] button, [data-theme='dark'] input, [data-theme='dark'] select {
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}

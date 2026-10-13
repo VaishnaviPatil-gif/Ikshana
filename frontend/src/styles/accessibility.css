@@ -1,0 +1,44 @@
+:focus-visible {
+  outline: 2px solid #4a90d9 !important;
+  outline-offset: 2px !important;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--navy-900);
+  color: white;
+  padding: 8px;
+  z-index: 9999;
+  transition: top 0.2s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-contrast: high) {
+  :root {
+    --navy-900: #000000;
+    --white: #ffffff;
+    --gray-500: #333333;
+  }
+  .card {
+    border: 2px solid #000;
+  }
+}
+
+button, a {
+  min-height: 44px;
+  min-width: 44px;
+}

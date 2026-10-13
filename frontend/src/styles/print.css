@@ -1,0 +1,25 @@
+@media print {
+  aside, header, nav, .btn, button {
+    display: none !important;
+  }
+  .app-layout {
+    display: block !important;
+  }
+  .main-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .card, .stat-card {
+    border: 1px solid #000;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .data-table th, .data-table td {
+    border: 1px solid #000;
+    color: #000;
+  }
+}
