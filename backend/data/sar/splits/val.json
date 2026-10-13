@@ -1,0 +1,662 @@
+[
+  {
+    "id": "oil_0000",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00005.tif",
+    "mask_path": "Mask/Oil/00005_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00005.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00005_segmentation.tif"
+  },
+  {
+    "id": "oil_0001",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00125.tif",
+    "mask_path": "Mask/Oil/00125_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00125.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00125_segmentation.tif"
+  },
+  {
+    "id": "oil_0002",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00033.tif",
+    "mask_path": "Mask/Oil/00033_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00033.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00033_segmentation.tif"
+  },
+  {
+    "id": "oil_0003",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00077.tif",
+    "mask_path": "Mask/Oil/00077_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00077.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00077_segmentation.tif"
+  },
+  {
+    "id": "oil_0004",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00044.tif",
+    "mask_path": "Mask/Oil/00044_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00044.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00044_segmentation.tif"
+  },
+  {
+    "id": "oil_0005",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00140.tif",
+    "mask_path": "Mask/Oil/00140_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00140.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00140_segmentation.tif"
+  },
+  {
+    "id": "oil_0006",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00045.tif",
+    "mask_path": "Mask/Oil/00045_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00045.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00045_segmentation.tif"
+  },
+  {
+    "id": "oil_0007",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00012.tif",
+    "mask_path": "Mask/Oil/00012_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00012.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00012_segmentation.tif"
+  },
+  {
+    "id": "oil_0008",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00048.tif",
+    "mask_path": "Mask/Oil/00048_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00048.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00048_segmentation.tif"
+  },
+  {
+    "id": "oil_0009",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00011.tif",
+    "mask_path": "Mask/Oil/00011_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00011.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00011_segmentation.tif"
+  },
+  {
+    "id": "oil_0010",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00013.tif",
+    "mask_path": "Mask/Oil/00013_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00013.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00013_segmentation.tif"
+  },
+  {
+    "id": "oil_0011",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00121.tif",
+    "mask_path": "Mask/Oil/00121_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00121.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00121_segmentation.tif"
+  },
+  {
+    "id": "oil_0012",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00126.tif",
+    "mask_path": "Mask/Oil/00126_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00126.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00126_segmentation.tif"
+  },
+  {
+    "id": "oil_0013",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00027.tif",
+    "mask_path": "Mask/Oil/00027_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00027.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00027_segmentation.tif"
+  },
+  {
+    "id": "oil_0014",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00019.tif",
+    "mask_path": "Mask/Oil/00019_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00019.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00019_segmentation.tif"
+  },
+  {
+    "id": "oil_0015",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00144.tif",
+    "mask_path": "Mask/Oil/00144_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00144.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00144_segmentation.tif"
+  },
+  {
+    "id": "oil_0016",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00043.tif",
+    "mask_path": "Mask/Oil/00043_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00043.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00043_segmentation.tif"
+  },
+  {
+    "id": "oil_0017",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00054.tif",
+    "mask_path": "Mask/Oil/00054_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00054.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00054_segmentation.tif"
+  },
+  {
+    "id": "oil_0018",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00089.tif",
+    "mask_path": "Mask/Oil/00089_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00089.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00089_segmentation.tif"
+  },
+  {
+    "id": "oil_0019",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00020.tif",
+    "mask_path": "Mask/Oil/00020_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00020.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00020_segmentation.tif"
+  },
+  {
+    "id": "oil_0020",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00103.tif",
+    "mask_path": "Mask/Oil/00103_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00103.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00103_segmentation.tif"
+  },
+  {
+    "id": "oil_0021",
+    "category": "Oil",
+    "label": "oil",
+    "class_id": 0,
+    "image_path": "Images/Oil/00097.tif",
+    "mask_path": "Mask/Oil/00097_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Oil\\00097.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Oil\\00097_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0000",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00054.tif",
+    "mask_path": "Mask/Lookalike/00054_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00054.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00054_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0001",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00077.tif",
+    "mask_path": "Mask/Lookalike/00077_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00077.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00077_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0002",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00149.tif",
+    "mask_path": "Mask/Lookalike/00149_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00149.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00149_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0003",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00033.tif",
+    "mask_path": "Mask/Lookalike/00033_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00033.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00033_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0004",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00021.tif",
+    "mask_path": "Mask/Lookalike/00021_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00021.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00021_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0005",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00070.tif",
+    "mask_path": "Mask/Lookalike/00070_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00070.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00070_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0006",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00060.tif",
+    "mask_path": "Mask/Lookalike/00060_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00060.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00060_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0007",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00084.tif",
+    "mask_path": "Mask/Lookalike/00084_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00084.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00084_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0008",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00114.tif",
+    "mask_path": "Mask/Lookalike/00114_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00114.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00114_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0009",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00016.tif",
+    "mask_path": "Mask/Lookalike/00016_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00016.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00016_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0010",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00098.tif",
+    "mask_path": "Mask/Lookalike/00098_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00098.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00098_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0011",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00068.tif",
+    "mask_path": "Mask/Lookalike/00068_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00068.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00068_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0012",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00097.tif",
+    "mask_path": "Mask/Lookalike/00097_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00097.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00097_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0013",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00008.tif",
+    "mask_path": "Mask/Lookalike/00008_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00008.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00008_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0014",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00104.tif",
+    "mask_path": "Mask/Lookalike/00104_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00104.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00104_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0015",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00062.tif",
+    "mask_path": "Mask/Lookalike/00062_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00062.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00062_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0016",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00093.tif",
+    "mask_path": "Mask/Lookalike/00093_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00093.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00093_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0017",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00123.tif",
+    "mask_path": "Mask/Lookalike/00123_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00123.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00123_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0018",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00010.tif",
+    "mask_path": "Mask/Lookalike/00010_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00010.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00010_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0019",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00121.tif",
+    "mask_path": "Mask/Lookalike/00121_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00121.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00121_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0020",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00072.tif",
+    "mask_path": "Mask/Lookalike/00072_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00072.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00072_segmentation.tif"
+  },
+  {
+    "id": "lookalike_0021",
+    "category": "Lookalike",
+    "label": "lookalike",
+    "class_id": 1,
+    "image_path": "Images/Lookalike/00112.tif",
+    "mask_path": "Mask/Lookalike/00112_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\Lookalike\\00112.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\Lookalike\\00112_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0000",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00111.tif",
+    "mask_path": "Mask/No oil/00111_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00111.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00111_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0001",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00127.tif",
+    "mask_path": "Mask/No oil/00127_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00127.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00127_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0002",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00112.tif",
+    "mask_path": "Mask/No oil/00112_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00112.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00112_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0003",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00091.tif",
+    "mask_path": "Mask/No oil/00091_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00091.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00091_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0004",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00085.tif",
+    "mask_path": "Mask/No oil/00085_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00085.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00085_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0005",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00026.tif",
+    "mask_path": "Mask/No oil/00026_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00026.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00026_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0006",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00033.tif",
+    "mask_path": "Mask/No oil/00033_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00033.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00033_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0007",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00136.tif",
+    "mask_path": "Mask/No oil/00136_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00136.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00136_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0008",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00066.tif",
+    "mask_path": "Mask/No oil/00066_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00066.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00066_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0009",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00124.tif",
+    "mask_path": "Mask/No oil/00124_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00124.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00124_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0010",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00139.tif",
+    "mask_path": "Mask/No oil/00139_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00139.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00139_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0011",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00084.tif",
+    "mask_path": "Mask/No oil/00084_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00084.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00084_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0012",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00053.tif",
+    "mask_path": "Mask/No oil/00053_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00053.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00053_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0013",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00010.tif",
+    "mask_path": "Mask/No oil/00010_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00010.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00010_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0014",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00079.tif",
+    "mask_path": "Mask/No oil/00079_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00079.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00079_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0015",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00005.tif",
+    "mask_path": "Mask/No oil/00005_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00005.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00005_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0016",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00076.tif",
+    "mask_path": "Mask/No oil/00076_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00076.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00076_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0017",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00074.tif",
+    "mask_path": "Mask/No oil/00074_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00074.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00074_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0018",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00031.tif",
+    "mask_path": "Mask/No oil/00031_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00031.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00031_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0019",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00072.tif",
+    "mask_path": "Mask/No oil/00072_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00072.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00072_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0020",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00113.tif",
+    "mask_path": "Mask/No oil/00113_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00113.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00113_segmentation.tif"
+  },
+  {
+    "id": "no_oil_0021",
+    "category": "No oil",
+    "label": "no_oil",
+    "class_id": 2,
+    "image_path": "Images/No oil/00120.tif",
+    "mask_path": "Mask/No oil/00120_segmentation.tif",
+    "full_image_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Images\\No oil\\00120.tif",
+    "full_mask_path": "C:\\Users\\Temporary User\\Desktop\\oil spill\\backend\\data\\sar\\Mask\\No oil\\00120_segmentation.tif"
+  }
+]

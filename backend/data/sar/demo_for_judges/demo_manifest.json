@@ -1,0 +1,104 @@
+[
+  {
+    "id": "demo_oil_spill_large",
+    "title": "Real Sentinel-1 SAR: Major Crude Oil Spill",
+    "category": "oil",
+    "description": "Authentic crude oil slick showing backscatter damping",
+    "tiff_file": "demo_oil_spill_large.tif",
+    "png_file": "demo_oil_spill_large.png",
+    "ground_truth_mask_tiff": "demo_oil_spill_large_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_oil_spill_large_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 18.85,
+      "lon": 71.9,
+      "region": "west_coast",
+      "location_name": "Mumbai Offshore Basin (Arabian Sea)"
+    },
+    "expected_outcome": "Severe oil slick with characteristic low-backscatter radar damping. Model flags high priority."
+  },
+  {
+    "id": "demo_oil_spill_moderate",
+    "title": "Real Sentinel-1 SAR: Moderate Oil Slick",
+    "category": "oil",
+    "description": "Authentic crude oil slick showing backscatter damping",
+    "tiff_file": "demo_oil_spill_moderate.tif",
+    "png_file": "demo_oil_spill_moderate.png",
+    "ground_truth_mask_tiff": "demo_oil_spill_moderate_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_oil_spill_moderate_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 22.312,
+      "lon": 69.215,
+      "region": "west_coast",
+      "location_name": "Gulf of Kutch Maritime Approach"
+    },
+    "expected_outcome": "Elongated slick trailing commercial tanker shipping lane. Model triggers backtrack attribution."
+  },
+  {
+    "id": "demo_lookalike_low_wind",
+    "title": "Real Sentinel-1 SAR: Biogenic Look-alike (Algal Slick)",
+    "category": "lookalike",
+    "description": "Look-alike feature (low wind / natural biogenic film)",
+    "tiff_file": "demo_lookalike_low_wind.tif",
+    "png_file": "demo_lookalike_low_wind.png",
+    "ground_truth_mask_tiff": "demo_lookalike_low_wind_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_lookalike_low_wind_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 13.0827,
+      "lon": 80.45,
+      "region": "southeast_coast",
+      "location_name": "Coromandel Coast (Bay of Bengal)"
+    },
+    "expected_outcome": "Natural low-backscatter feature (calm wind / biogenic film). Model correctly distinguishes from mineral oil."
+  },
+  {
+    "id": "demo_lookalike_calm_water",
+    "title": "Real Sentinel-1 SAR: Low-Wind Shadow Area",
+    "category": "lookalike",
+    "description": "Look-alike feature (low wind / natural biogenic film)",
+    "tiff_file": "demo_lookalike_calm_water.tif",
+    "png_file": "demo_lookalike_calm_water.png",
+    "ground_truth_mask_tiff": "demo_lookalike_calm_water_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_lookalike_calm_water_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 9.2876,
+      "lon": 79.3129,
+      "region": "southeast_coast",
+      "location_name": "Palk Strait Nearshore"
+    },
+    "expected_outcome": "Coastal wind-shadow lookalike. Model suppresses false positive alarm."
+  },
+  {
+    "id": "demo_clean_sea_offshore",
+    "title": "Real Sentinel-1 SAR: Clean Sea Surface",
+    "category": "no_oil",
+    "description": "Open sea surface with normal radar roughness",
+    "tiff_file": "demo_clean_sea_offshore.tif",
+    "png_file": "demo_clean_sea_offshore.png",
+    "ground_truth_mask_tiff": "demo_clean_sea_offshore_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_clean_sea_offshore_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 15.2993,
+      "lon": 73.45,
+      "region": "west_coast",
+      "location_name": "Goa Offshore EEZ"
+    },
+    "expected_outcome": "Homogeneous sea surface roughness. Zero oil polygons detected (Clean Sea classification)."
+  },
+  {
+    "id": "demo_clean_sea_shipping_corridor",
+    "title": "Real Sentinel-1 SAR: Busy Shipping Corridor (Clean)",
+    "category": "no_oil",
+    "description": "Open sea surface with normal radar roughness",
+    "tiff_file": "demo_clean_sea_shipping_corridor.tif",
+    "png_file": "demo_clean_sea_shipping_corridor.png",
+    "ground_truth_mask_tiff": "demo_clean_sea_shipping_corridor_ground_truth_mask.tif",
+    "ground_truth_mask_png": "demo_clean_sea_shipping_corridor_ground_truth_mask.png",
+    "suggested_coordinates": {
+      "lat": 11.6234,
+      "lon": 92.7265,
+      "region": "andaman",
+      "location_name": "Andaman Sea Transit Lane"
+    },
+    "expected_outcome": "Normal sea return without hydrocarbon film. Verified clear of contaminants."
+  }
+]

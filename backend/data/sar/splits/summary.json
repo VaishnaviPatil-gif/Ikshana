@@ -1,0 +1,17 @@
+{
+  "train": {
+    "Oil": 105,
+    "Lookalike": 105,
+    "No oil": 105
+  },
+  "val": {
+    "Oil": 22,
+    "Lookalike": 22,
+    "No oil": 22
+  },
+  "test": {
+    "Oil": 23,
+    "Lookalike": 23,
+    "No oil": 23
+  }
+}
