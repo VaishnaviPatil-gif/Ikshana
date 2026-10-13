@@ -1,0 +1,24 @@
+﻿# Backend local ignores
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+oilspill.db
+oilspill.db*
+data/cmems/*.nc
+!data/cmems/.gitkeep
+data/sar/Images/*
+!data/sar/Images/.gitkeep
+data/sar/Mask/*
+!data/sar/Mask/.gitkeep
+data/gis/eez_raw/*
+!data/gis/eez_raw/.gitkeep
+data/gis/corals_raw/*
+!data/gis/corals_raw/.gitkeep
+data/gis/bathymetry/*
+!data/gis/bathymetry/.gitkeep
+backend/
