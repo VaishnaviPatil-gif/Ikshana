@@ -1,0 +1,104 @@
+# =========================================================
+# Oil Spill Intelligence Platform - .gitignore
+# =========================================================
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# --- Node & Frontend ---
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env.production.local
+!frontend/.env.production
+
+# --- Local Databases & Runtime Locks ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/oilspill.db
+backend/oilspill.db*
+
+# --- Heavy Raw Satellite & Spatial Datasets (Keep Repo Lightweight) ---
+# Raw heavy SAR dataset (16+ GB)
+backend/data/sar/Images/*
+!backend/data/sar/Images/.gitkeep
+backend/data/sar/Mask/*
+!backend/data/sar/Mask/.gitkeep
+
+# Raw GIS packages and heavy files (>100MB)
+backend/data/gis/eez_raw/*
+!backend/data/gis/eez_raw/.gitkeep
+backend/data/gis/corals_raw/*
+!backend/data/gis/corals_raw/.gitkeep
+backend/data/gis/bathymetry/*
+!backend/data/gis/bathymetry/.gitkeep
+backend/data/cmems/*.nc
+!backend/data/cmems/.gitkeep
+backend/data/sar/*.tif
+
+# Ignore accidental nested backend directory
+backend/backend/
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# --- External & Large Unrelated Folders ---
+Capabl-AI-Career-Decision-Simulator/
+backend/ml/checkpoints/
+backend/data/demo_dataset/
+
+# --- Logs ---
+backend/logs/
