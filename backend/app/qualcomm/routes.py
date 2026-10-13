@@ -254,12 +254,38 @@ async def get_regional_cleanup_brief(
         "centroid_lon": spill.centroid_lon,
     }
 
+    coast_km = 35.0
+    if impact and getattr(impact, "coast_proximity_km", None) is not None:
+        coast_km = float(impact.coast_proximity_km)
+    elif getattr(spill, "coast_proximity_km", None) is not None:
+        coast_km = float(spill.coast_proximity_km)
+
+    mpa_name = "Gulf of Mannar Biosphere Reserve"
+    if impact and getattr(impact, "nearest_mpa_name", None):
+        mpa_name = str(impact.nearest_mpa_name)
+    elif getattr(spill, "nearest_mpa_name", None):
+        mpa_name = str(spill.nearest_mpa_name)
+
+    mpa_dist = 42.0
+    if impact and getattr(impact, "nearest_mpa_distance_km", None) is not None:
+        mpa_dist = float(impact.nearest_mpa_distance_km)
+
+    prio = "HIGH"
+    if impact and getattr(impact, "priority", None):
+        prio = str(impact.priority)
+    elif getattr(spill, "severity", None):
+        prio = str(spill.severity)
+
+    cost_usd = 5800000
+    if impact and getattr(impact, "estimated_cleanup_cost_usd", None) is not None:
+        cost_usd = float(impact.estimated_cleanup_cost_usd)
+
     impact_dict = {
-        "coast_proximity_km": impact.coast_proximity_km if impact and impact.coast_proximity_km else (spill.coast_proximity_km or 35.0),
-        "nearest_mpa_name": impact.nearest_mpa_name if impact and impact.nearest_mpa_name else (getattr(spill, "nearest_mpa_name", "Gulf of Mannar Biosphere Reserve") or "Gulf of Mannar Biosphere Reserve"),
-        "nearest_mpa_distance_km": impact.nearest_mpa_distance_km if impact and impact.nearest_mpa_distance_km else 42.0,
-        "priority": impact.priority if impact and impact.priority else (spill.severity or "high"),
-        "estimated_cleanup_cost_usd": impact.estimated_cleanup_cost_usd if impact and impact.estimated_cleanup_cost_usd else 5800000,
+        "coast_proximity_km": coast_km,
+        "nearest_mpa_name": mpa_name,
+        "nearest_mpa_distance_km": mpa_dist,
+        "priority": prio,
+        "estimated_cleanup_cost_usd": cost_usd,
     }
 
     return await generate_regional_cleanup_brief(spill_dict, impact_dict)
