@@ -1,0 +1,8 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "explanation": "1. This is a weak lead. The top factors are Spatial Proximity to Drift Origin with a score of 97.8 and a contribution of 24.4, and AIS Transponder Blackout with a score of 40.0 and a contribution of 8.0.\n\n2. There is only one candidate vessel, the MV KOCHI PIONEER, so no comparison with other vessels is possible.\n\n3. Inspection checks should include verifying the vessel's AIS transponder operation during the estimated discharge window, examining the vessel's navigation and speed logs to confirm standard commercial cruising speed, and reviewing the vessel's route history to assess the lateral diversion from the designated international commercial maritime traffic TSS fairway.\n\n4. The factors Speed Reduction Anomaly and Course Alteration Anomaly, with scores of 0.0, weaken the attribution as they indicate the vessel maintained standard commercial cruising speed and a steady navigational heading.",
+  "latency_ms": 11449,
+  "generated_at": "2026-10-09T17:59:54.641832+00:00",
+  "error": null
+}

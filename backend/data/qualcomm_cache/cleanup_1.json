@@ -1,0 +1,16 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "spill_id": "1",
+  "summary": "1. 48-Hour Shoreline & Sensitive Habitat Threat Assessment\n* Landfall risk window: 52.7 hours\n* Vulnerable zones: Potential impact on Maharashtra coastline, with Malvan Marine Sanctuary at risk due to proximity to spill trajectory\n\n2. Primary Tactical Deployment\n* Containment boom positioning: Deploy boom at 90-100 km radius around the spill to prevent further spread\n* Skimmer staging: Stage skimmers at nearest port for rapid deployment\n* Dispersant application window: Apply dispersants within the next 24 hours to minimize slick area of 12.5 sq km\n\n3. Inter-Agency Coordination\n* Notify Coast Guard District HQ (West Coast) for maritime support\n* Inform Maharashtra State Pollution Control Board for environmental monitoring\n* Coordinate with Port Trust for skimmer and equipment logistics",
+  "landfall_countdown_hours": 52.7,
+  "response_priority": "LOW",
+  "key_actions": [
+    "Deploy heavy-duty ocean containment booms across down-drift sector (94.8 km off shore)",
+    "Stage high-volume weir skimmers at nearest port facility for active vacuum skimming",
+    "Establish continuous surveillance over Malvan Marine Sanctuary (Maharashtra) (approx 351.8 km buffer)",
+    "Notify State Pollution Control Board and Port Trust under NOS-DCP Tier-1 protocol"
+  ],
+  "latency_ms": 11017,
+  "generated_at": "2026-10-12T18:59:31.341618+00:00"
+}

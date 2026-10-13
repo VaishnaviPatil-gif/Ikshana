@@ -1,0 +1,8 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "explanation": "1. This is a moderate lead. The top factors are Spatial Proximity to Drift Origin with a score of 100.0 and a contribution of 25.0, and Temporal Coincidence Window with a score of 97.9 and a contribution of 19.6.\n\n2. There is only one candidate vessel, the MV LIBERIA STAR, so no comparison with other vessels is possible.\n\n3. Inspection checks should include verifying the AIS position of the MV LIBERIA STAR to confirm its proximity to the spill, reviewing the vessel's speed logs to confirm the speed reduction, and examining the vessel's AIS transmission records to confirm the reported blackout.\n\n4. The factors Commercial Route Deviation and Course Alteration Anomaly, with contributions of 2.3 and 0.0 respectively, weaken the attribution to the MV LIBERIA STAR.",
+  "latency_ms": 11661,
+  "generated_at": "2026-10-12T14:55:41.689758+00:00",
+  "error": null
+}

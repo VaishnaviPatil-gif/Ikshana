@@ -1,0 +1,13 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "language_code": "en",
+  "language_name": "English",
+  "title": "Safety Advisory (English)",
+  "advisory": "A coastal safety advisory has been issued for the west coast due to the SPILL-20260918-155 incident located at 20.65°N, 71.25°E, covering an area of 39.28 square kilometers. \n\n1. Caution Zone Notice: All vessels and watercraft are advised to stay clear of the affected waters to avoid any potential hazards and to prevent the spread of the spill.\n\n2. Fishermen Directive: Fishermen are instructed not to cast their nets or engage in any fishing activities within the affected area. Small boats are required to maintain a safety buffer of at least 5 nautical miles from the spill zone to ensure their safety.\n\n3. Public Beach Warning: The public is warned to avoid any contact with oily residue or tar balls that may have washed up on the shore. Swimming and shellfish collection are strictly prohibited in the affected area until further notice, as they may pose health risks.\n\n4. In case of any emergencies or for further information, the public can contact the Indian Coast Guard Toll-Free Helpline at 1554, which is available 24/7 to provide assistance and support.",
+  "spill_name": "SPILL-20260918-155",
+  "region": "west_coast",
+  "helpline": "1554",
+  "latency_ms": 13500,
+  "generated_at": "2026-10-12T19:01:55.519148+00:00"
+}

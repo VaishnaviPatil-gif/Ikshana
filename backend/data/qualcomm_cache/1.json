@@ -1,0 +1,8 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "explanation": "1. This is a strong lead. The top factors are Spatial Proximity to Drift Origin with a score of 100.0 and a contribution of 25.0, and Temporal Coincidence Window with a score of 96.9 and a contribution of 19.4.\n\n2. There is only one candidate vessel, the MT ARABIAN STAR, so no comparison with other vessels is possible.\n\n3. Inspection checks should include verifying the AIS position of the MT ARABIAN STAR to confirm its proximity to the spill, reviewing its speed logs to confirm the speed reduction, and examining its heading records to confirm the course alteration.\n\n4. The factors that weaken the attribution are Course Alteration Anomaly and Commercial Route Deviation, which had low scores and contributions, potentially weakening the lead.",
+  "latency_ms": 12221,
+  "generated_at": "2026-10-09T17:59:31.939366+00:00",
+  "error": null
+}

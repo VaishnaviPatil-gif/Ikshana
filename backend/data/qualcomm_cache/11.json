@@ -1,0 +1,8 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "explanation": "1. This is a moderate lead. The top contributing factors are Spatial Proximity to Drift Origin with a score of 100.0 and a contribution of 25.0, and Temporal Coincidence Window with a score of 70.3 and a contribution of 14.1.\n\n2. There is only one candidate vessel, the MT CRUDE CARRIER, so no comparison with other vessels is possible.\n\n3. Inspection checks should include verifying the AIS position records to confirm the Spatial Proximity to Drift Origin, reviewing the vessel's speed logs to validate the Speed Reduction Anomaly, and examining the AIS transponder records to investigate the AIS Transponder Blackout.\n\n4. The factors that weaken the attribution are Commercial Route Deviation and Course Alteration Anomaly, which had low scores and contributions, potentially weakening the lead.",
+  "latency_ms": 12012,
+  "generated_at": "2026-10-12T19:02:46.002817+00:00",
+  "error": null
+}

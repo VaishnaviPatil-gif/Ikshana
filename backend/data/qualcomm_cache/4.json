@@ -1,0 +1,8 @@
+{
+  "source": "qualcomm_cloud_ai",
+  "model": "Llama-3.3-70B",
+  "explanation": "1. This is a moderate lead. The top factors are Spatial Proximity to Drift Origin with a score of 97.9 and a contribution of 24.5, and AIS Transponder Blackout with a score of 65.0 and a contribution of 13.0.\n\n2. There is only one candidate vessel, the MT KUTCH VOYAGER, so no comparison with other vessels is possible.\n\n3. Inspection checks should include verifying the AIS position of the MT KUTCH VOYAGER to confirm its proximity to the spill, reviewing AIS data for any gaps in transmission, and examining the vessel's speed and course records to confirm any anomalies.\n\n4. The factors Temporal Coincidence Window and Commercial Route Deviation, with scores of 28.1 and 23.5 respectively, weaken the attribution to the MT KUTCH VOYAGER.",
+  "latency_ms": 11209,
+  "generated_at": "2026-10-09T17:59:43.173550+00:00",
+  "error": null
+}
