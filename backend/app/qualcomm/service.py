@@ -16,9 +16,12 @@ import httpx
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
 
-API_URL = os.getenv("QUALCOMM_API_URL", "https://aisuite.cirrascale.com/apis/v2/chat/completions")
-API_KEY = os.getenv("QUALCOMM_API_KEY", "")
-MODEL = os.getenv("QUALCOMM_MODEL", "Llama-3.3-70B")
+API_URL = os.getenv("QUALCOMM_API_URL") or os.getenv("INFERENCE_CLOUD_ENDPOINT", "https://aisuite.cirrascale.com/apis/v2")
+if API_URL and not API_URL.endswith("/chat/completions"):
+    API_URL = API_URL.rstrip("/") + "/chat/completions"
+
+API_KEY = os.getenv("QUALCOMM_API_KEY") or os.getenv("INFERENCE_CLOUD_API_KEY", "")
+MODEL = os.getenv("QUALCOMM_MODEL") or os.getenv("INFERENCE_CLOUD_MODEL", "Llama-3.3-70B")
 
 CACHE_DIR = Path(os.getenv("QUALCOMM_CACHE_DIR", "data/qualcomm_cache"))
 
