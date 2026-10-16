@@ -9,7 +9,7 @@ const getApiUrl = () => {
   if (typeof window !== 'undefined' && window.location && window.location.hostname) {
     const host = window.location.hostname;
     if (host !== 'localhost' && host !== '127.0.0.1' && host !== '0.0.0.0') {
-      return 'https://sarvas-backend.onrender.com';
+      return 'https://sarvas-backend-lx7g.onrender.com';
     }
   }
   // Local development default
